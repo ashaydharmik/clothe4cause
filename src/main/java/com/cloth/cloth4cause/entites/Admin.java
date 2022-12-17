@@ -14,17 +14,10 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Users {
-
+public class Admin {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String firstName;
-    private String Address;
-    private int contact;
-    private boolean isUserNGO;
-    private boolean isUserDonor;
     private String password;
-    private String img;
-    private String description;
 }
